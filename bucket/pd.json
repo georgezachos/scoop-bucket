@@ -1,7 +1,7 @@
 {
-    "homepage": "https://puredata.info/",
+    // "homepage": "https://puredata.info/",
     "version": "0.50-1",
-    "description": "Vim-fork focused on extensibility and usability",
+    "description": "Pure Data (or just Pd) is an open source visual programming language for multimedia",
     "license": {
         "identifier": "Standard Improved BSD License",
         "url": "https://puredata.info/about/pdlicense"
@@ -17,7 +17,7 @@
         }
     },
     "checkver": {
-      "homepage": "https://puredata.info/downloads/pure-data",
+      "homepage": "https://puredata.info/downloads/pure-data/",
       "checkver": "Current Release: Pure Data ([^\\ ]+)"
     },
     "bin": [
