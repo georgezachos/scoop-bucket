@@ -17,7 +17,7 @@
         }
     },
     "checkver": {
-      "homepage": "http://msp.ucsd.edu/Software/",
+      "homepage": "https://puredata.info/downloads/pure-data",
       "checkver": "Current Release: Pure Data ([^\\ ]+)"
     },
     "bin": [
