@@ -1,5 +1,5 @@
 {
-    // "homepage": "https://puredata.info/",
+    "homepage": "https://puredata.info/",
     "version": "0.50-1",
     "description": "Pure Data (or just Pd) is an open source visual programming language for multimedia",
     "license": {
@@ -17,8 +17,8 @@
         }
     },
     "checkver": {
-      "homepage": "https://puredata.info/downloads/pure-data/",
-      "checkver": "Current Release: Pure Data ([^\\ ]+)"
+      "url": "https://puredata.info/downloads/pure-data",
+      "regex": "pd-([^\\ ]+).src"
     },
     "bin": [
         "bin\\pd.exe"
