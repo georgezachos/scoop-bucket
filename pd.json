@@ -1,0 +1,44 @@
+{
+    "homepage": "https://puredata.info/",
+    "version": "0.50-1",
+    "description": "Vim-fork focused on extensibility and usability",
+    "license": {
+        "identifier": "Standard Improved BSD License",
+        "url": "https://puredata.info/about/pdlicense"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://msp.ucsd.edu/Software/pd-0.50-1.msw.zip",
+            "extract_dir": "pd-0.50-1"
+        },
+        "32bit": {
+            "url": "http://msp.ucsd.edu/Software/pd-0.50-1-i386.msw.zip",
+            "extract_dir": "pd-0.50-1"
+        }
+    },
+    "checkver": {
+      "homepage": "http://msp.ucsd.edu/Software/",
+      "checkver": "Current Release: Pure Data ([^\\ ]+)"
+    },
+    "bin": [
+        "bin\\pd.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\pd.exe",
+            "pd",
+            "puredata"
+        ]
+    ],
+    "autoupdate": {
+        "architecture": {
+          "extract_dir": "pd-$version",
+            "64bit": {
+                "url": "http://msp.ucsd.edu/Software/pd-$version.msw.zip"
+            },
+            "32bit": {
+                "url": "http://msp.ucsd.edu/Software/pd-$version.msw.zip"
+              }
+        }
+    }
+}
