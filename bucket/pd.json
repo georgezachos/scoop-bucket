@@ -38,7 +38,7 @@
                 "url": "http://msp.ucsd.edu/Software/pd-$version.msw.zip"
             },
             "32bit": {
-                "url": "http://msp.ucsd.edu/Software/pd-$version.msw.zip"
+                "url": "http://msp.ucsd.edu/Software/pd-$version-i386.msw.zip"
               }
         }
     }
